@@ -64,7 +64,7 @@ Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever
 
 ## Co-signed by
 
-No co-signs yet.
+- Somers Sample Club (invented), President, 2026-11-20
 
 ## The four gates, attested by the tabler, never judged
 

@@ -14,7 +14,13 @@
     "role": "Executive Director"
   },
   "authors": [],
-  "co_signed_by": [],
+  "co_signed_by": [
+    {
+      "organisation": "Somers Sample Club (invented)",
+      "signer_role": "President",
+      "date": "2026-11-20"
+    }
+  ],
   "built_from": 1,
   "revision_of": null,
   "gates_attested": {

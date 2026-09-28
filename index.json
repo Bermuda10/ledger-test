@@ -61,7 +61,7 @@
       "published_at": "2026-10-18",
       "status": "published",
       "signable": true,
-      "co_signs": 0,
+      "co_signs": 1,
       "changes": "kept all ten",
       "path": "entries/004-parish-sample-trust.json"
     }
