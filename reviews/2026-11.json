@@ -1,0 +1,45 @@
+{
+  "period": "2026-11",
+  "cutoff_at": "2026-11-30T23:59:00-04:00",
+  "ran_at": "2026-12-01T04:00:00Z",
+  "floor": {
+    "signatures": 25,
+    "walks": 3
+  },
+  "held": false,
+  "tallies": [
+    {
+      "entry": 2,
+      "signatures": 31,
+      "walks": 5,
+      "named": 19,
+      "unnamed": 12,
+      "under_review": 0,
+      "eligible": true,
+      "by_walk": {
+        "Community, Faith & Charity": 10,
+        "Working Bermuda": 8,
+        "Elders & Heritage": 6,
+        "The Next Generation": 4,
+        "Education & Family": 3
+      }
+    },
+    {
+      "entry": 3,
+      "signatures": 27,
+      "walks": 3,
+      "named": 15,
+      "unnamed": 12,
+      "under_review": 6,
+      "eligible": true,
+      "by_walk": {
+        "Local Enterprise": 14,
+        "International Business": 9,
+        "Working Bermuda": 4
+      }
+    }
+  ],
+  "leading_entry": 2,
+  "leads_for": "2026-12",
+  "note": "002 leads with 31 against 27. Six signatures on 003 are under review after the anomaly flag of 14 November and are excluded from the count. Test reading."
+}

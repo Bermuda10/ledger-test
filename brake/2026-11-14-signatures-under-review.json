@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-14",
+  "kind": "signatures-under-review",
+  "entry": 3,
+  "starts_at": "2026-11-14T15:20:00-04:00",
+  "ends_at": null,
+  "recorded_by": "admin",
+  "reason": "Anomaly flag: six signatures on 003 from one email domain inside 24 hours. Placed under review and excluded from counts until each is confirmed, within 30 days. Test record."
+}

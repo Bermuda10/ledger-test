@@ -1,0 +1,90 @@
+{
+  "number": 1,
+  "kind": "genesis",
+  "title": "Genesis, the founder's draft",
+  "status": "published",
+  "entered": "2026-09-27",
+  "signer": {
+    "name": "Hannes Heyns",
+    "role": "resident"
+  },
+  "preamble": "The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. In the test ledger this carries the goals as published on bermuda10.com on 11 August 2026, not the final Genesis wording.",
+  "gates": {
+    "Outcome, not mechanism": "attested",
+    "Measurable by 2050": "attested",
+    "Disaggregable": "attested",
+    "Universal": "attested"
+  },
+  "goals": [
+    {
+      "number": 1,
+      "action": "keep",
+      "theme": "Health",
+      "title": "Healthy at Every Age",
+      "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation."
+    },
+    {
+      "number": 2,
+      "action": "keep",
+      "theme": "Home",
+      "title": "A Home You Can Own",
+      "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it."
+    },
+    {
+      "number": 3,
+      "action": "keep",
+      "theme": "Movement",
+      "title": "The 10-Minute Island",
+      "statement": "Moving anything, anyone, anywhere on the island takes less than ten minutes, around the clock."
+    },
+    {
+      "number": 4,
+      "action": "keep",
+      "theme": "Sovereignty",
+      "title": "You Own Your Identity and Data",
+      "statement": "Your identity and data are yours outright, you decide how they're used, every time."
+    },
+    {
+      "number": 5,
+      "action": "keep",
+      "theme": "Nature",
+      "title": "An Ocean That Feeds and Heals",
+      "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited."
+    },
+    {
+      "number": 6,
+      "action": "keep",
+      "theme": "Resilience",
+      "title": "Power and Water You Never Worry About",
+      "statement": "Reliable, affordable, resilient power and water that simply work."
+    },
+    {
+      "number": 7,
+      "action": "keep",
+      "theme": "Safety",
+      "title": "Safe at Every Hour",
+      "statement": "Every Bermudian feels safe, anywhere on the island, at any hour."
+    },
+    {
+      "number": 8,
+      "action": "keep",
+      "theme": "Capability & Enterprise",
+      "title": "A Nation of Builders",
+      "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day."
+    },
+    {
+      "number": 9,
+      "action": "keep",
+      "theme": "Belonging",
+      "title": "A Place Worth Staying For",
+      "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it."
+    },
+    {
+      "number": 10,
+      "action": "keep",
+      "theme": "Blueprint",
+      "title": "The Place the World Learns From",
+      "statement": "What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "number": 3,
+  "kind": "tabled",
+  "title": "Cedar Lane Cooperative's Ten",
+  "status": "published",
+  "entered": "2026-10-11",
+  "parent": 2,
+  "organisation": {
+    "legal_name": "Cedar Lane Cooperative (invented for the test ledger)",
+    "short_name": "Cedar Lane Cooperative",
+    "kind": "local enterprise",
+    "is_political_party": false
+  },
+  "signer": {
+    "name": "Ben Sample",
+    "role": "Managing Director"
+  },
+  "authors": [
+    {
+      "name": "Ben Sample",
+      "role": "Managing Director"
+    }
+  ],
+  "preamble": "A test entry. Builds on 002 and replaces one goal to rehearse the replace flow, a chain of parents, and a second candidate at a reading.",
+  "gates": {
+    "Outcome, not mechanism": "attested",
+    "Measurable by 2050": "attested",
+    "Disaggregable": "attested",
+    "Universal": "not attested, the tabler notes Prosperity may read as one sector's agenda and asks signers to judge"
+  },
+  "goals": [
+    {
+      "number": 1,
+      "action": "keep",
+      "theme": "Health",
+      "title": "Healthy at Every Age",
+      "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation."
+    },
+    {
+      "number": 2,
+      "action": "keep",
+      "theme": "Home",
+      "title": "A Home You Can Own",
+      "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it."
+    },
+    {
+      "number": 3,
+      "action": "keep",
+      "theme": "Movement",
+      "title": "The 15-Minute Island",
+      "statement": "Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car."
+    },
+    {
+      "number": 4,
+      "action": "keep",
+      "theme": "Trust",
+      "title": "Private People, Open Institutions",
+      "statement": "Your data is yours and every public body's decisions and spending are open to read."
+    },
+    {
+      "number": 5,
+      "action": "keep",
+      "theme": "Nature",
+      "title": "An Ocean That Feeds and Heals",
+      "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited."
+    },
+    {
+      "number": 6,
+      "action": "keep",
+      "theme": "Resilience",
+      "title": "Power and Water You Never Worry About",
+      "statement": "Reliable, affordable, resilient power and water that simply work."
+    },
+    {
+      "number": 7,
+      "action": "keep",
+      "theme": "Safety",
+      "title": "Safe at Every Hour",
+      "statement": "Every Bermudian feels safe, anywhere on the island, at any hour."
+    },
+    {
+      "number": 8,
+      "action": "keep",
+      "theme": "Capability & Enterprise",
+      "title": "A Nation of Builders",
+      "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day."
+    },
+    {
+      "number": 9,
+      "action": "keep",
+      "theme": "Belonging",
+      "title": "A Place Worth Staying For",
+      "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it."
+    },
+    {
+      "number": 10,
+      "action": "replace",
+      "theme": "Prosperity",
+      "title": "Work Here Pays for a Good Life",
+      "statement": "Work in Bermuda pays for a good life, from the first job to a secure retirement.",
+      "reason": "Blueprint describes what the world does with our results, not a state of the island. Prosperity is a state residents can feel. Test reason."
+    }
+  ]
+}

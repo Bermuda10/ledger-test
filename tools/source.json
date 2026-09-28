@@ -1,0 +1,170 @@
+{
+  "test": true,
+  "repository": "bermuda10/ledger-test",
+  "walks": [
+    "The Next Generation",
+    "Elders & Heritage",
+    "Education & Family",
+    "Community, Faith & Charity",
+    "Working Bermuda",
+    "Local Enterprise",
+    "International Business",
+    "Public Service & Institutions",
+    "Environment & Ocean",
+    "Island Life: Tourism, Sport & Culture"
+  ],
+  "entries": [
+    {
+      "number": 1,
+      "kind": "genesis",
+      "title": "Genesis, the founder's draft",
+      "status": "published",
+      "entered": "2026-09-27",
+      "signer": { "name": "Hannes Heyns", "role": "resident" },
+      "preamble": "The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. In the test ledger this carries the goals as published on bermuda10.com on 11 August 2026, not the final Genesis wording.",
+      "gates": {
+        "Outcome, not mechanism": "attested",
+        "Measurable by 2050": "attested",
+        "Disaggregable": "attested",
+        "Universal": "attested"
+      },
+      "goals": [
+        { "number": 1, "action": "keep", "theme": "Health", "title": "Healthy at Every Age", "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation." },
+        { "number": 2, "action": "keep", "theme": "Home", "title": "A Home You Can Own", "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it." },
+        { "number": 3, "action": "keep", "theme": "Movement", "title": "The 10-Minute Island", "statement": "Moving anything, anyone, anywhere on the island takes less than ten minutes, around the clock." },
+        { "number": 4, "action": "keep", "theme": "Sovereignty", "title": "You Own Your Identity and Data", "statement": "Your identity and data are yours outright, you decide how they're used, every time." },
+        { "number": 5, "action": "keep", "theme": "Nature", "title": "An Ocean That Feeds and Heals", "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited." },
+        { "number": 6, "action": "keep", "theme": "Resilience", "title": "Power and Water You Never Worry About", "statement": "Reliable, affordable, resilient power and water that simply work." },
+        { "number": 7, "action": "keep", "theme": "Safety", "title": "Safe at Every Hour", "statement": "Every Bermudian feels safe, anywhere on the island, at any hour." },
+        { "number": 8, "action": "keep", "theme": "Capability & Enterprise", "title": "A Nation of Builders", "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day." },
+        { "number": 9, "action": "keep", "theme": "Belonging", "title": "A Place Worth Staying For", "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it." },
+        { "number": 10, "action": "keep", "theme": "Blueprint", "title": "The Place the World Learns From", "statement": "What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt." }
+      ]
+    },
+    {
+      "number": 2,
+      "kind": "tabled",
+      "title": "Harbour Test Society's Ten",
+      "status": "published",
+      "entered": "2026-10-03",
+      "parent": 1,
+      "organisation": { "legal_name": "Harbour Test Society (invented for the test ledger)", "short_name": "Harbour Test Society", "kind": "community group", "is_political_party": false },
+      "signer": { "name": "Ada Example", "role": "Chair" },
+      "authors": [ { "name": "Ada Example", "role": "Chair" }, { "name": "Cy Placeholder", "role": "Secretary" } ],
+      "joined_by": [ { "organisation": "Somers Sample Club (invented)", "date": "2026-10-20" } ],
+      "preamble": "A test entry. Builds on Genesis and changes two goals to rehearse the amend flow and the diff rendering.",
+      "gates": {
+        "Outcome, not mechanism": "attested",
+        "Measurable by 2050": "attested",
+        "Disaggregable": "attested",
+        "Universal": "attested"
+      },
+      "goals": [
+        { "number": 1, "action": "keep", "theme": "Health", "title": "Healthy at Every Age", "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation." },
+        { "number": 2, "action": "keep", "theme": "Home", "title": "A Home You Can Own", "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it." },
+        { "number": 3, "action": "amend", "theme": "Movement", "title": "The 15-Minute Island", "statement": "Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car.", "reason": "Ten minutes describes a speed. Fifteen minutes to what you need describes a life. Test reason, not a real position." },
+        { "number": 4, "action": "amend", "theme": "Trust", "title": "Private People, Open Institutions", "statement": "Your data is yours and every public body's decisions and spending are open to read.", "reason": "Sovereignty reads as constitutional. Trust is what residents feel. Test reason." },
+        { "number": 5, "action": "keep", "theme": "Nature", "title": "An Ocean That Feeds and Heals", "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited." },
+        { "number": 6, "action": "keep", "theme": "Resilience", "title": "Power and Water You Never Worry About", "statement": "Reliable, affordable, resilient power and water that simply work." },
+        { "number": 7, "action": "keep", "theme": "Safety", "title": "Safe at Every Hour", "statement": "Every Bermudian feels safe, anywhere on the island, at any hour." },
+        { "number": 8, "action": "keep", "theme": "Capability & Enterprise", "title": "A Nation of Builders", "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day." },
+        { "number": 9, "action": "keep", "theme": "Belonging", "title": "A Place Worth Staying For", "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it." },
+        { "number": 10, "action": "keep", "theme": "Blueprint", "title": "The Place the World Learns From", "statement": "What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt." }
+      ]
+    },
+    {
+      "number": 3,
+      "kind": "tabled",
+      "title": "Cedar Lane Cooperative's Ten",
+      "status": "published",
+      "entered": "2026-10-11",
+      "parent": 2,
+      "organisation": { "legal_name": "Cedar Lane Cooperative (invented for the test ledger)", "short_name": "Cedar Lane Cooperative", "kind": "local enterprise", "is_political_party": false },
+      "signer": { "name": "Ben Sample", "role": "Managing Director" },
+      "authors": [ { "name": "Ben Sample", "role": "Managing Director" } ],
+      "preamble": "A test entry. Builds on 002 and replaces one goal to rehearse the replace flow, a chain of parents, and a second candidate at a reading.",
+      "gates": {
+        "Outcome, not mechanism": "attested",
+        "Measurable by 2050": "attested",
+        "Disaggregable": "attested",
+        "Universal": "not attested, the tabler notes Prosperity may read as one sector's agenda and asks signers to judge"
+      },
+      "goals": [
+        { "number": 1, "action": "keep", "theme": "Health", "title": "Healthy at Every Age", "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation." },
+        { "number": 2, "action": "keep", "theme": "Home", "title": "A Home You Can Own", "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it." },
+        { "number": 3, "action": "keep", "theme": "Movement", "title": "The 15-Minute Island", "statement": "Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car." },
+        { "number": 4, "action": "keep", "theme": "Trust", "title": "Private People, Open Institutions", "statement": "Your data is yours and every public body's decisions and spending are open to read." },
+        { "number": 5, "action": "keep", "theme": "Nature", "title": "An Ocean That Feeds and Heals", "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited." },
+        { "number": 6, "action": "keep", "theme": "Resilience", "title": "Power and Water You Never Worry About", "statement": "Reliable, affordable, resilient power and water that simply work." },
+        { "number": 7, "action": "keep", "theme": "Safety", "title": "Safe at Every Hour", "statement": "Every Bermudian feels safe, anywhere on the island, at any hour." },
+        { "number": 8, "action": "keep", "theme": "Capability & Enterprise", "title": "A Nation of Builders", "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day." },
+        { "number": 9, "action": "keep", "theme": "Belonging", "title": "A Place Worth Staying For", "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it." },
+        { "number": 10, "action": "replace", "theme": "Prosperity", "title": "Work Here Pays for a Good Life", "statement": "Work in Bermuda pays for a good life, from the first job to a secure retirement.", "reason": "Blueprint describes what the world does with our results, not a state of the island. Prosperity is a state residents can feel. Test reason." }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "period": "2026-10",
+      "cutoff_at": "2026-10-31T23:59:00-03:00",
+      "ran_at": "2026-11-01T04:00:00Z",
+      "floor": { "signatures": 25, "walks": 3 },
+      "held": false,
+      "tallies": [
+        { "entry": 2, "signatures": 18, "walks": 4, "named": 11, "unnamed": 7, "under_review": 0, "eligible": false, "by_walk": { "Community, Faith & Charity": 7, "Working Bermuda": 5, "Elders & Heritage": 4, "The Next Generation": 2 } },
+        { "entry": 3, "signatures": 9, "walks": 2, "named": 6, "unnamed": 3, "under_review": 0, "eligible": false, "by_walk": { "Local Enterprise": 6, "International Business": 3 } }
+      ],
+      "leading_entry": null,
+      "leads_for": null,
+      "note": "No entry reached the floor. Test reading."
+    },
+    {
+      "period": "2026-11",
+      "cutoff_at": "2026-11-30T23:59:00-04:00",
+      "ran_at": "2026-12-01T04:00:00Z",
+      "floor": { "signatures": 25, "walks": 3 },
+      "held": false,
+      "tallies": [
+        { "entry": 2, "signatures": 31, "walks": 5, "named": 19, "unnamed": 12, "under_review": 0, "eligible": true, "by_walk": { "Community, Faith & Charity": 10, "Working Bermuda": 8, "Elders & Heritage": 6, "The Next Generation": 4, "Education & Family": 3 } },
+        { "entry": 3, "signatures": 27, "walks": 3, "named": 15, "unnamed": 12, "under_review": 6, "eligible": true, "by_walk": { "Local Enterprise": 14, "International Business": 9, "Working Bermuda": 4 } }
+      ],
+      "leading_entry": 2,
+      "leads_for": "2026-12",
+      "note": "002 leads with 31 against 27. Six signatures on 003 are under review after the anomaly flag of 14 November and are excluded from the count. Test reading."
+    }
+  ],
+  "brake": [
+    {
+      "date": "2026-11-14",
+      "kind": "signatures-under-review",
+      "entry": 3,
+      "starts_at": "2026-11-14T15:20:00-04:00",
+      "ends_at": null,
+      "recorded_by": "admin",
+      "reason": "Anomaly flag: six signatures on 003 from one email domain inside 24 hours. Placed under review and excluded from counts until each is confirmed, within 30 days. Test record."
+    }
+  ],
+  "settings": [
+    {
+      "effective_from": "2026-09-27",
+      "signature_floor": 25,
+      "walk_floor": 3,
+      "reading": "23:59 Atlantic/Bermuda on the last day of every month",
+      "revision_cooldown_days": 90,
+      "revision_window_days": 30,
+      "max_consecutive_holds": 2,
+      "changed_by": "founder",
+      "reason": "Initial settings for the test ledger."
+    }
+  ],
+  "not_admitted": {
+    "as_of": "2026-11-30",
+    "counts_by_reason": {
+      "tabled by a political party": 1,
+      "signer could not confirm authority": 1,
+      "duplicate of an existing entry": 0,
+      "incomplete, fewer than ten slots": 2
+    },
+    "note": "Test counts."
+  }
+}

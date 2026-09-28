@@ -1,0 +1,115 @@
+{
+  "number": 2,
+  "kind": "tabled",
+  "title": "Harbour Test Society's Ten",
+  "status": "published",
+  "entered": "2026-10-03",
+  "parent": 1,
+  "organisation": {
+    "legal_name": "Harbour Test Society (invented for the test ledger)",
+    "short_name": "Harbour Test Society",
+    "kind": "community group",
+    "is_political_party": false
+  },
+  "signer": {
+    "name": "Ada Example",
+    "role": "Chair"
+  },
+  "authors": [
+    {
+      "name": "Ada Example",
+      "role": "Chair"
+    },
+    {
+      "name": "Cy Placeholder",
+      "role": "Secretary"
+    }
+  ],
+  "joined_by": [
+    {
+      "organisation": "Somers Sample Club (invented)",
+      "date": "2026-10-20"
+    }
+  ],
+  "preamble": "A test entry. Builds on Genesis and changes two goals to rehearse the amend flow and the diff rendering.",
+  "gates": {
+    "Outcome, not mechanism": "attested",
+    "Measurable by 2050": "attested",
+    "Disaggregable": "attested",
+    "Universal": "attested"
+  },
+  "goals": [
+    {
+      "number": 1,
+      "action": "keep",
+      "theme": "Health",
+      "title": "Healthy at Every Age",
+      "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation."
+    },
+    {
+      "number": 2,
+      "action": "keep",
+      "theme": "Home",
+      "title": "A Home You Can Own",
+      "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it."
+    },
+    {
+      "number": 3,
+      "action": "amend",
+      "theme": "Movement",
+      "title": "The 15-Minute Island",
+      "statement": "Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car.",
+      "reason": "Ten minutes describes a speed. Fifteen minutes to what you need describes a life. Test reason, not a real position."
+    },
+    {
+      "number": 4,
+      "action": "amend",
+      "theme": "Trust",
+      "title": "Private People, Open Institutions",
+      "statement": "Your data is yours and every public body's decisions and spending are open to read.",
+      "reason": "Sovereignty reads as constitutional. Trust is what residents feel. Test reason."
+    },
+    {
+      "number": 5,
+      "action": "keep",
+      "theme": "Nature",
+      "title": "An Ocean That Feeds and Heals",
+      "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited."
+    },
+    {
+      "number": 6,
+      "action": "keep",
+      "theme": "Resilience",
+      "title": "Power and Water You Never Worry About",
+      "statement": "Reliable, affordable, resilient power and water that simply work."
+    },
+    {
+      "number": 7,
+      "action": "keep",
+      "theme": "Safety",
+      "title": "Safe at Every Hour",
+      "statement": "Every Bermudian feels safe, anywhere on the island, at any hour."
+    },
+    {
+      "number": 8,
+      "action": "keep",
+      "theme": "Capability & Enterprise",
+      "title": "A Nation of Builders",
+      "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day."
+    },
+    {
+      "number": 9,
+      "action": "keep",
+      "theme": "Belonging",
+      "title": "A Place Worth Staying For",
+      "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it."
+    },
+    {
+      "number": 10,
+      "action": "keep",
+      "theme": "Blueprint",
+      "title": "The Place the World Learns From",
+      "statement": "What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt."
+    }
+  ]
+}

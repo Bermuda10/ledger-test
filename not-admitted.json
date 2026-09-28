@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-11-30",
+  "counts_by_reason": {
+    "tabled by a political party": 1,
+    "signer could not confirm authority": 1,
+    "duplicate of an existing entry": 0,
+    "incomplete, fewer than ten slots": 2
+  },
+  "note": "Test counts."
+}

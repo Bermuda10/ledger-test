@@ -1,0 +1,43 @@
+{
+  "period": "2026-10",
+  "cutoff_at": "2026-10-31T23:59:00-03:00",
+  "ran_at": "2026-11-01T04:00:00Z",
+  "floor": {
+    "signatures": 25,
+    "walks": 3
+  },
+  "held": false,
+  "tallies": [
+    {
+      "entry": 2,
+      "signatures": 18,
+      "walks": 4,
+      "named": 11,
+      "unnamed": 7,
+      "under_review": 0,
+      "eligible": false,
+      "by_walk": {
+        "Community, Faith & Charity": 7,
+        "Working Bermuda": 5,
+        "Elders & Heritage": 4,
+        "The Next Generation": 2
+      }
+    },
+    {
+      "entry": 3,
+      "signatures": 9,
+      "walks": 2,
+      "named": 6,
+      "unnamed": 3,
+      "under_review": 0,
+      "eligible": false,
+      "by_walk": {
+        "Local Enterprise": 6,
+        "International Business": 3
+      }
+    }
+  ],
+  "leading_entry": null,
+  "leads_for": null,
+  "note": "No entry reached the floor. Test reading."
+}

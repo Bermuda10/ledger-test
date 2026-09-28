@@ -1,0 +1,56 @@
+{
+  "test": true,
+  "repository": "bermuda10/ledger-test",
+  "licence": "CC BY 4.0",
+  "generated_from": "tools/source.json",
+  "leading_entry": 2,
+  "last_reading": "2026-11",
+  "entries": [
+    {
+      "number": 1,
+      "kind": "genesis",
+      "title": "Genesis, the founder's draft",
+      "organisation": null,
+      "parent": null,
+      "supersedes": null,
+      "entered": "2026-09-27",
+      "status": "published",
+      "signable": false,
+      "path": "entries/001-genesis.json"
+    },
+    {
+      "number": 2,
+      "kind": "tabled",
+      "title": "Harbour Test Society's Ten",
+      "organisation": "Harbour Test Society",
+      "parent": 1,
+      "supersedes": null,
+      "entered": "2026-10-03",
+      "status": "published",
+      "signable": true,
+      "path": "entries/002-harbour-test-society.json"
+    },
+    {
+      "number": 3,
+      "kind": "tabled",
+      "title": "Cedar Lane Cooperative's Ten",
+      "organisation": "Cedar Lane Cooperative",
+      "parent": 2,
+      "supersedes": null,
+      "entered": "2026-10-11",
+      "status": "published",
+      "signable": true,
+      "path": "entries/003-cedar-lane-cooperative.json"
+    }
+  ],
+  "reviews": [
+    "reviews/2026-10.json",
+    "reviews/2026-11.json"
+  ],
+  "brake": [
+    "brake/2026-11-14-signatures-under-review.json"
+  ],
+  "settings": [
+    "settings/2026-09-27.json"
+  ]
+}
