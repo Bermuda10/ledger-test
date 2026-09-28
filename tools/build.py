@@ -39,15 +39,14 @@ def entry_base(e):
 
 def public_entry(e):
     """The JSON shape the site renders from. Drops builder-only keys."""
-    return {k: v for k, v in e.items() if k not in ("preamble", "title", "joined_by")} | {
-        "title": e["title"], "preamble": e.get("preamble"), "joined_by": e.get("joined_by", [])}
+    return dict(e)
 
 
 def render_goals(entry, parent):
     lines = []
-    fl = entry["fairness_line"]
-    pfl = parent["fairness_line"] if parent else None
-    lines.append("### The fairness line\n")
+    fl = entry["fairness_test"]
+    pfl = parent["fairness_test"] if parent else None
+    lines.append("### This version's test of fairness\n")
     if fl["action"] == "amend" and pfl:
         lines.append(f"**Amend.** *{fl['wording']}*\n")
         lines.append(f"Was: ~~{pfl['wording']}~~\n")
@@ -87,7 +86,10 @@ def render_entry(e, entries):
         md.append(f"| Revision of | {e['revision_of']:03d} |")
     md.append(f"| Published | {e['published_at']} |")
     md.append(f"| Status | {e['status']} |")
-    md.append(f"| Signable | {'no, never' if e['type'] == 'genesis' else 'yes'} |")
+    md.append(f"| Signable | {'no, never, by anyone' if e['type'] == 'genesis' else 'yes, from organisations and residents'} |")
+    changed = sum(1 for g in e["goals"] if g["action"] != "keep") + (1 if e["fairness_test"]["action"] != "keep" else 0)
+    if parent:
+        md.append(f"| Changes | {'kept all ten' if changed == 0 else str(changed) + ' changed'} |")
     md.append(f"| Licence | {e['licence']} |")
     md.append("")
     if e.get("preamble"):
@@ -98,15 +100,19 @@ def render_entry(e, entries):
         md.append("## Authors (credits, not signatures)\n")
         md.extend(f"- {a['name']}, {a['role']}" for a in e["authors"])
         md.append("")
-    if e.get("joined_by"):
-        md.append("## Also tabled by\n")
-        md.extend(f"- {j['organisation']}, joined {j['date']}" for j in e["joined_by"])
+    md.append("## Co-signed by\n")
+    if e["type"] == "genesis":
+        md.append("Genesis cannot be co-signed. Table your own copy.\n")
+    elif e.get("co_signed_by"):
+        md.extend(f"- {j['organisation']}, {j['signer_role']}, {j['date']}" for j in e["co_signed_by"])
         md.append("")
+    else:
+        md.append("No co-signs yet.\n")
     md.append("## The four gates, attested by the tabler, never judged\n")
     for k, v in e["gates_attested"].items():
         md.append(f"- {k}: {'attested' if v else 'not attested'}")
     md.append("")
-    md.append("Signature counts live in `readings/`, read at every month-end. "
+    md.append("Resident signature counts live in `readings/`, taken at every month-end. "
               "No individual signer appears in this repository.\n")
     base = entry_base(e)
     write(base + ".md", "\n".join(md))
@@ -117,19 +123,14 @@ def render_entry(e, entries):
 def render_reading(r):
     md = [BANNER + f"# Reading · {r['period']}\n"]
     md.append(f"Cutoff {r['cutoff_at']}. Run {r['ran_at']}.\n")
-    md.append(f"Floor: {r['floor']['signatures']} verified signatures from at least "
-              f"{r['floor']['walks']} walks of life.\n")
-    if r.get("held"):
-        md.append(f"**Held.** {r['hold_reason']}\n")
-    md.append("| Entry | Signatures | Walks | Named | Unnamed | Under review | Eligible |")
+    md.append("A reading records every answer's backing at the cutoff. It declares nothing: "
+              "no leading version, no threshold, no winner. The rule by which an answer comes to be "
+              "measured against is written with the participants and published before it applies.\n")
+    md.append("| Entry | Co-signs | Signatures | Walks | Named | Unnamed | Under review |")
     md.append("|---|---|---|---|---|---|---|")
     for t in r["tallies"]:
-        md.append(f"| {t['entry']:03d} | {t['signatures']} | {t['walks']} | {t['named']} | "
-                  f"{t['unnamed']} | {t['under_review']} | {'yes' if t['eligible'] else 'no'} |")
-    md.append("")
-    lead = r.get("leading_entry")
-    md.append("**Outcome.** " + (f"Entry {lead:03d} leads for {r['leads_for']}." if lead
-                                 else "No leading version yet."))
+        md.append(f"| {t['entry']:03d} | {t['co_signs']} | {t['signatures']} | {t['walks']} | {t['named']} | "
+                  f"{t['unnamed']} | {t['under_review']} |")
     md.append("")
     md.append("Spread by walk, per entry:\n")
     for t in r["tallies"]:
@@ -177,7 +178,7 @@ def main():
         "test": SRC["test"],
         "repository": SRC["repository"],
         "licence": "CC BY 4.0",
-        "leading_entry": latest["leading_entry"] if latest else None,
+        "convergence_rule": None,
         "last_reading": latest["period"] if latest else None,
         "entries": [
             {
@@ -191,6 +192,8 @@ def main():
                 "published_at": e["published_at"],
                 "status": e["status"],
                 "signable": e["type"] != "genesis",
+                "co_signs": len(e.get("co_signed_by", [])),
+                "changes": "kept all ten" if e.get("built_from") and all(g["action"] == "keep" for g in e["goals"]) and e["fairness_test"]["action"] == "keep" else None,
                 "path": paths[e["number"]] + ".json",
             }
             for e in entries

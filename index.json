@@ -2,7 +2,7 @@
   "test": true,
   "repository": "bermuda10/ledger-test",
   "licence": "CC BY 4.0",
-  "leading_entry": 2,
+  "convergence_rule": null,
   "last_reading": "2026-11",
   "entries": [
     {
@@ -16,6 +16,8 @@
       "published_at": "2026-09-28",
       "status": "published",
       "signable": false,
+      "co_signs": 0,
+      "changes": null,
       "path": "entries/001-genesis.json"
     },
     {
@@ -29,6 +31,8 @@
       "published_at": "2026-10-03",
       "status": "published",
       "signable": true,
+      "co_signs": 2,
+      "changes": null,
       "path": "entries/002-harbour-test-society.json"
     },
     {
@@ -42,7 +46,24 @@
       "published_at": "2026-10-11",
       "status": "published",
       "signable": true,
+      "co_signs": 0,
+      "changes": null,
       "path": "entries/003-cedar-lane-cooperative.json"
+    },
+    {
+      "number": 4,
+      "slug": "parish-sample-trust",
+      "type": "tabled",
+      "organisation": "Parish Sample Trust (invented for the test ledger)",
+      "signer": "Dee Specimen",
+      "built_from": 1,
+      "revision_of": null,
+      "published_at": "2026-10-18",
+      "status": "published",
+      "signable": true,
+      "co_signs": 0,
+      "changes": "kept all ten",
+      "path": "entries/004-parish-sample-trust.json"
     }
   ],
   "readings": [

@@ -3,6 +3,7 @@
   "slug": "genesis",
   "type": "genesis",
   "status": "published",
+  "title": "Genesis, the founder's draft",
   "organisation": null,
   "signer": {
     "name": "Hannes Heyns",
@@ -19,11 +20,7 @@
   },
   "licence": "CC BY 4.0",
   "published_at": "2026-09-28",
-  "fairness_line": {
-    "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
-    "action": "keep",
-    "why": null
-  },
+  "preamble": "The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. Genesis v1.0, as it will be entered on the real ledger.",
   "goals": [
     {
       "slot": 1,
@@ -53,7 +50,7 @@
       "slot": 4,
       "short_name": "Trust",
       "title": "Private People, Open Institutions",
-      "wording": "Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.",
+      "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
       "action": "keep",
       "why": null
     },
@@ -106,7 +103,10 @@
       "why": null
     }
   ],
-  "title": "Genesis, the founder's draft",
-  "preamble": "The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. Genesis v1.0, as it will be entered on the real ledger.",
-  "joined_by": []
+  "fairness_test": {
+    "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+    "action": "keep",
+    "why": null
+  },
+  "co_signed_by": []
 }

@@ -8,14 +8,14 @@
 | Tabled by | Hannes Heyns, as a resident |
 | Published | 2026-09-28 |
 | Status | published |
-| Signable | no, never |
+| Signable | no, never, by anyone |
 | Licence | CC BY 4.0 |
 
 The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. Genesis v1.0, as it will be entered on the real ledger.
 
 ## The Ten
 
-### The fairness line
+### This version's test of fairness
 
 *A goal is met only when it is true for every walk of life, every race, every age and every parish.*
 
@@ -33,7 +33,7 @@ Anyone can get to what they need, and anything can get to them, within fifteen m
 
 ### 4. Trust, Private People, Open Institutions
 
-Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.
+Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.
 
 ### 5. Nature, More Nature Than We Inherited
 
@@ -59,6 +59,10 @@ Work here pays for a good life, from the first job to a secure retirement.
 
 Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.
 
+## Co-signed by
+
+Genesis cannot be co-signed. Table your own copy.
+
 ## The four gates, attested by the tabler, never judged
 
 - outcome: attested
@@ -66,4 +70,4 @@ Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever
 - disaggregable: attested
 - universal: attested
 
-Signature counts live in `readings/`, read at every month-end. No individual signer appears in this repository.
+Resident signature counts live in `readings/`, taken at every month-end. No individual signer appears in this repository.

@@ -1,12 +1,10 @@
 {
   "effective_from": "2026-09-28",
-  "floor_signatures": 25,
-  "floor_walks": 3,
   "reading": "23:59 on the last day of every month",
   "timezone": "Atlantic/Bermuda",
   "revision_cooldown_days": 90,
   "revision_window_days": 30,
-  "max_consecutive_holds": 2,
+  "convergence_rule": null,
   "changed_by": "founder",
-  "reason": "Initial settings for the test ledger."
+  "reason": "Initial settings for the test ledger. No convergence rule: readings record and declare nothing."
 }

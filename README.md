@@ -6,7 +6,7 @@ This repository has the same layout, rules and file formats as the real ledger, 
 
 ## What the ledger is
 
-The ten national goals live as an open, append-only ledger. Organisations table versions of the Ten. Individuals sign the version they stand behind. At every month-end the ledger is read and the version with the most signatures, from a broad enough spread, leads. Bermuda 10 keeps the record and the count. It never tables a version and never picks one.
+Bermuda 10 asks one question: what would have to be true for Bermuda to be the best place to live on Earth by 2050? The answers live as an open, append-only ledger. Organisations table their answers, copied or changed, and co-sign one another's from the second entry on. Residents sign the answer they stand behind. At every month-end the ledger is read and records who backs what. It declares no winner. Bermuda 10 keeps the record and counts. It never tables an answer, never co-signs one and never chooses one.
 
 ## Layout
 
@@ -24,12 +24,12 @@ tools/build.py              the builder, run it after editing source.json
 
 ## Rules in brief
 
-- Genesis (001) is the founder's draft, frozen and unsignable.
-- Only organisations table. Only individuals sign. Political parties may not table.
-- A version builds on an earlier one or starts its own line. Nothing published is edited or deleted. A revision is a new numbered entry.
-- Floor to lead: 25 verified signatures from at least 3 walks of life. Read at 23:59 Atlantic/Bermuda on the last day of every month.
+- Genesis (001) is the founder's draft, frozen, and can never be signed or co-signed by anyone. An organisation that agrees with it tables its own copy and keeps all ten.
+- Only organisations table. Political parties may not table. From the second entry on, organisations co-sign tabled answers and residents sign them, one signature each.
+- An answer builds on an earlier one or starts its own line. Nothing published is edited or deleted. A revision is a new numbered entry.
+- Read at 23:59 Atlantic/Bermuda on the last day of every month. A reading records backing and declares nothing. There is no leading version until a convergence rule is written with the participants and published.
 - The brake slows and never steers. Every use is recorded here with a written reason.
-- No individual signer, named or unnamed, ever appears in this repository. Counts and spread by walk only.
+- No individual signer, named or unnamed, ever appears in this repository. Counts and spread by walk only. Organisations that co-sign appear by name, as they agreed.
 - Text is licensed CC BY 4.0.
 
 ## How the website reads it

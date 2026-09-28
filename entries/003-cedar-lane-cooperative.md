@@ -10,20 +10,17 @@
 | Built from | 002 |
 | Published | 2026-10-11 |
 | Status | published |
-| Signable | yes |
+| Signable | yes, from organisations and residents |
+| Changes | 1 changed |
 | Licence | CC BY 4.0 |
 
-A test entry. Builds on 002, replaces one goal and amends the fairness line, to rehearse replace, a chain of parents, a fairness-line change and a second candidate at a reading.
+A test entry. Builds on 002 and replaces one goal, to rehearse replace, a chain of parents and a second answer at a reading.
 
 ## The Ten
 
-### The fairness line
+### This version's test of fairness
 
-**Amend.** *A goal is met only when it is true for every walk of life, every race, every age, every parish and every income.*
-
-Was: ~~A goal is met only when it is true for every walk of life, every race, every age and every parish.~~
-
-Why: Income is where an island average hides the most. Test reason.
+*A goal is met only when it is true for every walk of life, every race, every age and every parish.*
 
 ### 1. Health, The Longest Healthy Lives on Earth
 
@@ -39,7 +36,7 @@ Anyone can get to what they need, and anything can get to them, within fifteen m
 
 ### 4. Trust, Private People, Open Institutions
 
-Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.
+Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.
 
 ### 5. Nature, More Nature Than We Inherited
 
@@ -74,6 +71,10 @@ Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever
 
 - Ben Sample, Managing Director
 
+## Co-signed by
+
+No co-signs yet.
+
 ## The four gates, attested by the tabler, never judged
 
 - outcome: attested
@@ -81,4 +82,4 @@ Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever
 - disaggregable: attested
 - universal: not attested
 
-Signature counts live in `readings/`, read at every month-end. No individual signer appears in this repository.
+Resident signature counts live in `readings/`, taken at every month-end. No individual signer appears in this repository.

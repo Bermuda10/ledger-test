@@ -1,20 +1,20 @@
 > **Test ledger.** Every organisation, entry, signature count and reading in this repository is invented to rehearse the process. Nothing here is on the record. The real ledger is `bermuda10/ledger`.
 
-# 002 · Harbour Test Society's Ten
+# 004 · Parish Sample Trust's Ten
 
 | | |
 |---|---|
 | Type | tabled |
-| Tabled by | Harbour Test Society (invented for the test ledger) (association) |
-| Authorised signer | Ada Example, Chair |
+| Tabled by | Parish Sample Trust (invented for the test ledger) (registered charity) |
+| Authorised signer | Dee Specimen, Executive Director |
 | Built from | 001 |
-| Published | 2026-10-03 |
+| Published | 2026-10-18 |
 | Status | published |
 | Signable | yes, from organisations and residents |
-| Changes | 2 changed |
+| Changes | kept all ten |
 | Licence | CC BY 4.0 |
 
-A test entry. Builds on Genesis and amends two goals to rehearse the amend flow and the diff rendering.
+A test entry that changes nothing. Built from Genesis with all ten kept. This is how an organisation stands behind Genesis, since Genesis itself cannot be signed or co-signed.
 
 ## The Ten
 
@@ -26,14 +26,9 @@ A test entry. Builds on Genesis and amends two goals to rehearse the amend flow 
 
 People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.
 
-### 2. Home, A Home You Can Afford to Keep
+### 2. Home, A Secure Home, and One You Can Own
 
-**Amend.** Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.
-
-Was: ~~Everyone who lives here has a secure home they can afford, and every Bermudian who wants to own a home can.~~
-Was titled: ~~Home, A Secure Home, and One You Can Own~~
-
-Why: Affordability is about staying housed, not only getting housed. Test reason, not a real position.
+Everyone who lives here has a secure home they can afford, and every Bermudian who wants to own a home can.
 
 ### 3. Movement, The 15-Minute Island
 
@@ -53,11 +48,7 @@ Power and water are clean, made here and affordable, and they do not fail, even 
 
 ### 7. Safety, Safe at Every Hour
 
-**Amend.** Everyone is safe and feels safe, at home, on the road and on the water, at any hour.
-
-Was: ~~Everyone is safe and feels safe, anywhere on the island, at any hour.~~
-
-Why: The road and the water are where Bermudians are hurt. Test reason.
+Everyone is safe and feels safe, anywhere on the island, at any hour.
 
 ### 8. Capability, A Nation of Builders
 
@@ -71,15 +62,9 @@ Work here pays for a good life, from the first job to a secure retirement.
 
 Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.
 
-## Authors (credits, not signatures)
-
-- Ada Example, Chair
-- Cy Placeholder, Secretary
-
 ## Co-signed by
 
-- Somers Sample Club (invented), Chair, 2026-10-20
-- Cedar Lane Cooperative (invented), Managing Director, 2026-11-02
+No co-signs yet.
 
 ## The four gates, attested by the tabler, never judged
 

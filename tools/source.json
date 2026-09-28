@@ -26,7 +26,6 @@
         "role": "resident"
       },
       "authors": [],
-      "joined_by": [],
       "built_from": null,
       "revision_of": null,
       "gates_attested": {
@@ -38,7 +37,381 @@
       "licence": "CC BY 4.0",
       "published_at": "2026-09-28",
       "preamble": "The first proposal. Frozen and unsignable. Every later version builds on this one or starts its own line. Genesis v1.0, as it will be entered on the real ledger.",
-      "fairness_line": {
+      "goals": [
+        {
+          "slot": 1,
+          "short_name": "Health",
+          "title": "The Longest Healthy Lives on Earth",
+          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 2,
+          "short_name": "Home",
+          "title": "A Secure Home, and One You Can Own",
+          "wording": "Everyone who lives here has a secure home they can afford, and every Bermudian who wants to own a home can.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 3,
+          "short_name": "Movement",
+          "title": "The 15-Minute Island",
+          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 4,
+          "short_name": "Trust",
+          "title": "Private People, Open Institutions",
+          "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 5,
+          "short_name": "Nature",
+          "title": "More Nature Than We Inherited",
+          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 6,
+          "short_name": "Resilience",
+          "title": "Power and Water You Never Worry About",
+          "wording": "Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 7,
+          "short_name": "Safety",
+          "title": "Safe at Every Hour",
+          "wording": "Everyone is safe and feels safe, anywhere on the island, at any hour.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 8,
+          "short_name": "Capability",
+          "title": "A Nation of Builders",
+          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 9,
+          "short_name": "Prosperity",
+          "title": "A Good Life on an Ordinary Income",
+          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 10,
+          "short_name": "Belonging",
+          "title": "A Place Bermudians Choose",
+          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
+          "action": "keep",
+          "why": null
+        }
+      ],
+      "fairness_test": {
+        "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+        "action": "keep",
+        "why": null
+      },
+      "co_signed_by": []
+    },
+    {
+      "number": 2,
+      "slug": "harbour-test-society",
+      "type": "tabled",
+      "status": "published",
+      "title": "Harbour Test Society's Ten",
+      "organisation": {
+        "name": "Harbour Test Society (invented for the test ledger)",
+        "kind": "association",
+        "website": ""
+      },
+      "signer": {
+        "name": "Ada Example",
+        "role": "Chair"
+      },
+      "authors": [
+        {
+          "name": "Ada Example",
+          "role": "Chair"
+        },
+        {
+          "name": "Cy Placeholder",
+          "role": "Secretary"
+        }
+      ],
+      "built_from": 1,
+      "revision_of": null,
+      "gates_attested": {
+        "outcome": true,
+        "measurable": true,
+        "disaggregable": true,
+        "universal": true
+      },
+      "licence": "CC BY 4.0",
+      "published_at": "2026-10-03",
+      "preamble": "A test entry. Builds on Genesis and amends two goals to rehearse the amend flow and the diff rendering.",
+      "goals": [
+        {
+          "slot": 1,
+          "short_name": "Health",
+          "title": "The Longest Healthy Lives on Earth",
+          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 2,
+          "short_name": "Home",
+          "title": "A Home You Can Afford to Keep",
+          "wording": "Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.",
+          "action": "amend",
+          "why": "Affordability is about staying housed, not only getting housed. Test reason, not a real position."
+        },
+        {
+          "slot": 3,
+          "short_name": "Movement",
+          "title": "The 15-Minute Island",
+          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 4,
+          "short_name": "Trust",
+          "title": "Private People, Open Institutions",
+          "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 5,
+          "short_name": "Nature",
+          "title": "More Nature Than We Inherited",
+          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 6,
+          "short_name": "Resilience",
+          "title": "Power and Water You Never Worry About",
+          "wording": "Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 7,
+          "short_name": "Safety",
+          "title": "Safe at Every Hour",
+          "wording": "Everyone is safe and feels safe, at home, on the road and on the water, at any hour.",
+          "action": "amend",
+          "why": "The road and the water are where Bermudians are hurt. Test reason."
+        },
+        {
+          "slot": 8,
+          "short_name": "Capability",
+          "title": "A Nation of Builders",
+          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 9,
+          "short_name": "Prosperity",
+          "title": "A Good Life on an Ordinary Income",
+          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 10,
+          "short_name": "Belonging",
+          "title": "A Place Bermudians Choose",
+          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
+          "action": "keep",
+          "why": null
+        }
+      ],
+      "fairness_test": {
+        "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+        "action": "keep",
+        "why": null
+      },
+      "co_signed_by": [
+        {
+          "organisation": "Somers Sample Club (invented)",
+          "signer_role": "Chair",
+          "date": "2026-10-20"
+        },
+        {
+          "organisation": "Cedar Lane Cooperative (invented)",
+          "signer_role": "Managing Director",
+          "date": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "cedar-lane-cooperative",
+      "type": "tabled",
+      "status": "published",
+      "title": "Cedar Lane Cooperative's Ten",
+      "organisation": {
+        "name": "Cedar Lane Cooperative (invented for the test ledger)",
+        "kind": "company",
+        "website": ""
+      },
+      "signer": {
+        "name": "Ben Sample",
+        "role": "Managing Director"
+      },
+      "authors": [
+        {
+          "name": "Ben Sample",
+          "role": "Managing Director"
+        }
+      ],
+      "built_from": 2,
+      "revision_of": null,
+      "gates_attested": {
+        "outcome": true,
+        "measurable": true,
+        "disaggregable": true,
+        "universal": false
+      },
+      "licence": "CC BY 4.0",
+      "published_at": "2026-10-11",
+      "preamble": "A test entry. Builds on 002 and replaces one goal, to rehearse replace, a chain of parents and a second answer at a reading.",
+      "goals": [
+        {
+          "slot": 1,
+          "short_name": "Health",
+          "title": "The Longest Healthy Lives on Earth",
+          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 2,
+          "short_name": "Home",
+          "title": "A Home You Can Afford to Keep",
+          "wording": "Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 3,
+          "short_name": "Movement",
+          "title": "The 15-Minute Island",
+          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 4,
+          "short_name": "Trust",
+          "title": "Private People, Open Institutions",
+          "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 5,
+          "short_name": "Nature",
+          "title": "More Nature Than We Inherited",
+          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 6,
+          "short_name": "Energy",
+          "title": "Energy Independence",
+          "wording": "The island makes all the power and water it uses, and nobody's bill decides whether they can stay.",
+          "action": "replace",
+          "why": "Resilience describes a feeling. Independence is a state that can be measured. Test reason."
+        },
+        {
+          "slot": 7,
+          "short_name": "Safety",
+          "title": "Safe at Every Hour",
+          "wording": "Everyone is safe and feels safe, at home, on the road and on the water, at any hour.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 8,
+          "short_name": "Capability",
+          "title": "A Nation of Builders",
+          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 9,
+          "short_name": "Prosperity",
+          "title": "A Good Life on an Ordinary Income",
+          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 10,
+          "short_name": "Belonging",
+          "title": "A Place Bermudians Choose",
+          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
+          "action": "keep",
+          "why": null
+        }
+      ],
+      "fairness_test": {
+        "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+        "action": "keep",
+        "why": null
+      },
+      "co_signed_by": []
+    },
+    {
+      "number": 4,
+      "slug": "parish-sample-trust",
+      "type": "tabled",
+      "status": "published",
+      "title": "Parish Sample Trust's Ten",
+      "organisation": {
+        "name": "Parish Sample Trust (invented for the test ledger)",
+        "kind": "registered charity",
+        "website": ""
+      },
+      "signer": {
+        "name": "Dee Specimen",
+        "role": "Executive Director"
+      },
+      "authors": [],
+      "co_signed_by": [],
+      "built_from": 1,
+      "revision_of": null,
+      "gates_attested": {
+        "outcome": true,
+        "measurable": true,
+        "disaggregable": true,
+        "universal": true
+      },
+      "licence": "CC BY 4.0",
+      "published_at": "2026-10-18",
+      "preamble": "A test entry that changes nothing. Built from Genesis with all ten kept. This is how an organisation stands behind Genesis, since Genesis itself cannot be signed or co-signed.",
+      "fairness_test": {
         "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
         "action": "keep",
         "why": null
@@ -72,7 +445,7 @@
           "slot": 4,
           "short_name": "Trust",
           "title": "Private People, Open Institutions",
-          "wording": "Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.",
+          "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
           "action": "keep",
           "why": null
         },
@@ -125,257 +498,6 @@
           "why": null
         }
       ]
-    },
-    {
-      "number": 2,
-      "slug": "harbour-test-society",
-      "type": "tabled",
-      "status": "published",
-      "title": "Harbour Test Society's Ten",
-      "organisation": {
-        "name": "Harbour Test Society (invented for the test ledger)",
-        "kind": "association",
-        "website": ""
-      },
-      "signer": {
-        "name": "Ada Example",
-        "role": "Chair"
-      },
-      "authors": [
-        {
-          "name": "Ada Example",
-          "role": "Chair"
-        },
-        {
-          "name": "Cy Placeholder",
-          "role": "Secretary"
-        }
-      ],
-      "joined_by": [
-        {
-          "organisation": "Somers Sample Club (invented)",
-          "date": "2026-10-20"
-        }
-      ],
-      "built_from": 1,
-      "revision_of": null,
-      "gates_attested": {
-        "outcome": true,
-        "measurable": true,
-        "disaggregable": true,
-        "universal": true
-      },
-      "licence": "CC BY 4.0",
-      "published_at": "2026-10-03",
-      "preamble": "A test entry. Builds on Genesis and amends two goals to rehearse the amend flow and the diff rendering.",
-      "fairness_line": {
-        "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
-        "action": "keep",
-        "why": null
-      },
-      "goals": [
-        {
-          "slot": 1,
-          "short_name": "Health",
-          "title": "The Longest Healthy Lives on Earth",
-          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 2,
-          "short_name": "Home",
-          "title": "A Home You Can Afford to Keep",
-          "wording": "Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.",
-          "action": "amend",
-          "why": "Affordability is about staying housed, not only getting housed. Test reason, not a real position."
-        },
-        {
-          "slot": 3,
-          "short_name": "Movement",
-          "title": "The 15-Minute Island",
-          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 4,
-          "short_name": "Trust",
-          "title": "Private People, Open Institutions",
-          "wording": "Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 5,
-          "short_name": "Nature",
-          "title": "More Nature Than We Inherited",
-          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 6,
-          "short_name": "Resilience",
-          "title": "Power and Water You Never Worry About",
-          "wording": "Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 7,
-          "short_name": "Safety",
-          "title": "Safe at Every Hour",
-          "wording": "Everyone is safe and feels safe, at home, on the road and on the water, at any hour.",
-          "action": "amend",
-          "why": "The road and the water are where Bermudians are hurt. Test reason."
-        },
-        {
-          "slot": 8,
-          "short_name": "Capability",
-          "title": "A Nation of Builders",
-          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 9,
-          "short_name": "Prosperity",
-          "title": "A Good Life on an Ordinary Income",
-          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 10,
-          "short_name": "Belonging",
-          "title": "A Place Bermudians Choose",
-          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
-          "action": "keep",
-          "why": null
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "slug": "cedar-lane-cooperative",
-      "type": "tabled",
-      "status": "published",
-      "title": "Cedar Lane Cooperative's Ten",
-      "organisation": {
-        "name": "Cedar Lane Cooperative (invented for the test ledger)",
-        "kind": "company",
-        "website": ""
-      },
-      "signer": {
-        "name": "Ben Sample",
-        "role": "Managing Director"
-      },
-      "authors": [
-        {
-          "name": "Ben Sample",
-          "role": "Managing Director"
-        }
-      ],
-      "joined_by": [],
-      "built_from": 2,
-      "revision_of": null,
-      "gates_attested": {
-        "outcome": true,
-        "measurable": true,
-        "disaggregable": true,
-        "universal": false
-      },
-      "licence": "CC BY 4.0",
-      "published_at": "2026-10-11",
-      "preamble": "A test entry. Builds on 002, replaces one goal and amends the fairness line, to rehearse replace, a chain of parents, a fairness-line change and a second candidate at a reading.",
-      "fairness_line": {
-        "wording": "A goal is met only when it is true for every walk of life, every race, every age, every parish and every income.",
-        "action": "amend",
-        "why": "Income is where an island average hides the most. Test reason."
-      },
-      "goals": [
-        {
-          "slot": 1,
-          "short_name": "Health",
-          "title": "The Longest Healthy Lives on Earth",
-          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 2,
-          "short_name": "Home",
-          "title": "A Home You Can Afford to Keep",
-          "wording": "Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 3,
-          "short_name": "Movement",
-          "title": "The 15-Minute Island",
-          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 4,
-          "short_name": "Trust",
-          "title": "Private People, Open Institutions",
-          "wording": "Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 5,
-          "short_name": "Nature",
-          "title": "More Nature Than We Inherited",
-          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 6,
-          "short_name": "Energy",
-          "title": "Energy Independence",
-          "wording": "The island makes all the power and water it uses, and nobody's bill decides whether they can stay.",
-          "action": "replace",
-          "why": "Resilience describes a feeling. Independence is a state that can be measured. Test reason."
-        },
-        {
-          "slot": 7,
-          "short_name": "Safety",
-          "title": "Safe at Every Hour",
-          "wording": "Everyone is safe and feels safe, at home, on the road and on the water, at any hour.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 8,
-          "short_name": "Capability",
-          "title": "A Nation of Builders",
-          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 9,
-          "short_name": "Prosperity",
-          "title": "A Good Life on an Ordinary Income",
-          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
-          "action": "keep",
-          "why": null
-        },
-        {
-          "slot": 10,
-          "short_name": "Belonging",
-          "title": "A Place Bermudians Choose",
-          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
-          "action": "keep",
-          "why": null
-        }
-      ]
     }
   ],
   "readings": [
@@ -383,12 +505,6 @@
       "period": "2026-10",
       "cutoff_at": "2026-10-31T23:59:00-03:00",
       "ran_at": "2026-11-01T04:00:00Z",
-      "floor": {
-        "signatures": 25,
-        "walks": 3
-      },
-      "held": false,
-      "hold_reason": null,
       "tallies": [
         {
           "entry": 2,
@@ -397,13 +513,13 @@
           "named": 11,
           "unnamed": 7,
           "under_review": 0,
-          "eligible": false,
           "by_walk": {
             "Community, Faith & Charity": 7,
             "Working Bermuda": 5,
             "Elders & Heritage": 4,
             "The Next Generation": 2
-          }
+          },
+          "co_signs": 1
         },
         {
           "entry": 3,
@@ -412,27 +528,32 @@
           "named": 6,
           "unnamed": 3,
           "under_review": 0,
-          "eligible": false,
           "by_walk": {
             "Local Enterprise": 6,
             "International Business": 3
+          },
+          "co_signs": 0
+        },
+        {
+          "entry": 4,
+          "signatures": 4,
+          "walks": 2,
+          "named": 3,
+          "unnamed": 1,
+          "under_review": 0,
+          "co_signs": 0,
+          "by_walk": {
+            "Community, Faith & Charity": 3,
+            "Elders & Heritage": 1
           }
         }
       ],
-      "leading_entry": null,
-      "leads_for": null,
-      "note": "No entry reached the floor. Test reading."
+      "note": "First reading. A reading records backing and declares nothing. Test reading."
     },
     {
       "period": "2026-11",
       "cutoff_at": "2026-11-30T23:59:00-04:00",
       "ran_at": "2026-12-01T04:00:00Z",
-      "floor": {
-        "signatures": 25,
-        "walks": 3
-      },
-      "held": false,
-      "hold_reason": null,
       "tallies": [
         {
           "entry": 2,
@@ -441,14 +562,14 @@
           "named": 19,
           "unnamed": 12,
           "under_review": 0,
-          "eligible": true,
           "by_walk": {
             "Community, Faith & Charity": 10,
             "Working Bermuda": 8,
             "Elders & Heritage": 6,
             "The Next Generation": 4,
             "Education & Family": 3
-          }
+          },
+          "co_signs": 2
         },
         {
           "entry": 3,
@@ -457,17 +578,29 @@
           "named": 15,
           "unnamed": 12,
           "under_review": 6,
-          "eligible": true,
           "by_walk": {
             "Local Enterprise": 14,
             "International Business": 9,
             "Working Bermuda": 4
+          },
+          "co_signs": 0
+        },
+        {
+          "entry": 4,
+          "signatures": 11,
+          "walks": 3,
+          "named": 8,
+          "unnamed": 3,
+          "under_review": 0,
+          "co_signs": 1,
+          "by_walk": {
+            "Community, Faith & Charity": 6,
+            "Elders & Heritage": 3,
+            "Education & Family": 2
           }
         }
       ],
-      "leading_entry": 2,
-      "leads_for": "2026-12",
-      "note": "002 leads with 31 against 27. Six signatures on 003 are under review after the anomaly flag of 14 November and are excluded from the count. Test reading."
+      "note": "Six signatures on 003 are under review after the anomaly flag of 14 November and are excluded from the count. A reading records backing and declares nothing. Test reading."
     }
   ],
   "brake": [
@@ -484,15 +617,13 @@
   "settings": [
     {
       "effective_from": "2026-09-28",
-      "floor_signatures": 25,
-      "floor_walks": 3,
       "reading": "23:59 on the last day of every month",
       "timezone": "Atlantic/Bermuda",
       "revision_cooldown_days": 90,
       "revision_window_days": 30,
-      "max_consecutive_holds": 2,
+      "convergence_rule": null,
       "changed_by": "founder",
-      "reason": "Initial settings for the test ledger."
+      "reason": "Initial settings for the test ledger. No convergence rule: readings record and declare nothing."
     }
   ],
   "not_admitted": {
