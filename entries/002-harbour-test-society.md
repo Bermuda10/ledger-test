@@ -1,72 +1,74 @@
 > **Test ledger.** Every organisation, entry, signature count and reading in this repository is invented to rehearse the process. Nothing here is on the record. The real ledger is `bermuda10/ledger`.
 
-
 # 002 · Harbour Test Society's Ten
 
 | | |
 |---|---|
-| Kind | tabled |
-| Tabled by | Harbour Test Society (invented for the test ledger) (community group) |
+| Type | tabled |
+| Tabled by | Harbour Test Society (invented for the test ledger) (association) |
 | Authorised signer | Ada Example, Chair |
-| Builds on | 001 |
-| Entered | 2026-10-03 |
+| Built from | 001 |
+| Published | 2026-10-03 |
 | Status | published |
 | Signable | yes |
 | Licence | CC BY 4.0 |
 
-A test entry. Builds on Genesis and changes two goals to rehearse the amend flow and the diff rendering.
+A test entry. Builds on Genesis and amends two goals to rehearse the amend flow and the diff rendering.
 
 ## The Ten
 
-### 1. Health, Healthy at Every Age
+### The fairness line
 
-Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation.
+*A goal is met only when it is true for every walk of life, every race, every age and every parish.*
 
-### 2. Home, A Home You Can Own
+### 1. Health, The Longest Healthy Lives on Earth
 
-There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it.
+People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.
+
+### 2. Home, A Home You Can Afford to Keep
+
+**Amend.** Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.
+
+Was: ~~Everyone who lives here has a secure home they can afford, and every Bermudian who wants to own a home can.~~
+Was titled: ~~Home, A Secure Home, and One You Can Own~~
+
+Why: Affordability is about staying housed, not only getting housed. Test reason, not a real position.
 
 ### 3. Movement, The 15-Minute Island
 
-**Amend.** Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car.
-
-Was: ~~Moving anything, anyone, anywhere on the island takes less than ten minutes, around the clock.~~
-Was titled: ~~Movement, The 10-Minute Island~~
-
-Reason: Ten minutes describes a speed. Fifteen minutes to what you need describes a life. Test reason, not a real position.
+Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.
 
 ### 4. Trust, Private People, Open Institutions
 
-**Amend.** Your data is yours and every public body's decisions and spending are open to read.
+Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.
 
-Was: ~~Your identity and data are yours outright, you decide how they're used, every time.~~
-Was titled: ~~Sovereignty, You Own Your Identity and Data~~
+### 5. Nature, More Nature Than We Inherited
 
-Reason: Sovereignty reads as constitutional. Trust is what residents feel. Test reason.
-
-### 5. Nature, An Ocean That Feeds and Heals
-
-A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited.
+Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.
 
 ### 6. Resilience, Power and Water You Never Worry About
 
-Reliable, affordable, resilient power and water that simply work.
+Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.
 
 ### 7. Safety, Safe at Every Hour
 
-Every Bermudian feels safe, anywhere on the island, at any hour.
+**Amend.** Everyone is safe and feels safe, at home, on the road and on the water, at any hour.
 
-### 8. Capability & Enterprise, A Nation of Builders
+Was: ~~Everyone is safe and feels safe, anywhere on the island, at any hour.~~
 
-Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day.
+Why: The road and the water are where Bermudians are hurt. Test reason.
 
-### 9. Belonging, A Place Worth Staying For
+### 8. Capability, A Nation of Builders
 
-Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it.
+Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.
 
-### 10. Blueprint, The Place the World Learns From
+### 9. Prosperity, A Good Life on an Ordinary Income
 
-What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt.
+Work here pays for a good life, from the first job to a secure retirement.
+
+### 10. Belonging, A Place Bermudians Choose
+
+Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.
 
 ## Authors (credits, not signatures)
 
@@ -77,11 +79,11 @@ What we prove here, measured in public, built in the open, becomes the blueprint
 
 - Somers Sample Club (invented), joined 2026-10-20
 
-## Gates, self-attested by the tabler
+## The four gates, attested by the tabler, never judged
 
-- Outcome, not mechanism: attested
-- Measurable by 2050: attested
-- Disaggregable: attested
-- Universal: attested
+- outcome: attested
+- measurable: attested
+- disaggregable: attested
+- universal: attested
 
-Signature counts live in `reviews/`, read at every month-end. No individual signer appears in this repository.
+Signature counts live in `readings/`, read at every month-end. No individual signer appears in this repository.

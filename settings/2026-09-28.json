@@ -1,8 +1,9 @@
 {
-  "effective_from": "2026-09-27",
-  "signature_floor": 25,
-  "walk_floor": 3,
-  "reading": "23:59 Atlantic/Bermuda on the last day of every month",
+  "effective_from": "2026-09-28",
+  "floor_signatures": 25,
+  "floor_walks": 3,
+  "reading": "23:59 on the last day of every month",
+  "timezone": "Atlantic/Bermuda",
   "revision_cooldown_days": 90,
   "revision_window_days": 30,
   "max_consecutive_holds": 2,

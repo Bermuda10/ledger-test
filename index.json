@@ -1,0 +1,59 @@
+{
+  "test": true,
+  "repository": "bermuda10/ledger-test",
+  "licence": "CC BY 4.0",
+  "leading_entry": 2,
+  "last_reading": "2026-11",
+  "entries": [
+    {
+      "number": 1,
+      "slug": "genesis",
+      "type": "genesis",
+      "organisation": null,
+      "signer": "Hannes Heyns",
+      "built_from": null,
+      "revision_of": null,
+      "published_at": "2026-09-28",
+      "status": "published",
+      "signable": false,
+      "path": "entries/001-genesis.json"
+    },
+    {
+      "number": 2,
+      "slug": "harbour-test-society",
+      "type": "tabled",
+      "organisation": "Harbour Test Society (invented for the test ledger)",
+      "signer": "Ada Example",
+      "built_from": 1,
+      "revision_of": null,
+      "published_at": "2026-10-03",
+      "status": "published",
+      "signable": true,
+      "path": "entries/002-harbour-test-society.json"
+    },
+    {
+      "number": 3,
+      "slug": "cedar-lane-cooperative",
+      "type": "tabled",
+      "organisation": "Cedar Lane Cooperative (invented for the test ledger)",
+      "signer": "Ben Sample",
+      "built_from": 2,
+      "revision_of": null,
+      "published_at": "2026-10-11",
+      "status": "published",
+      "signable": true,
+      "path": "entries/003-cedar-lane-cooperative.json"
+    }
+  ],
+  "readings": [
+    "readings/2026-10.json",
+    "readings/2026-11.json"
+  ],
+  "brake": [
+    "brake/2026-11-14-signatures-under-review.json"
+  ],
+  "settings": [
+    "settings/2026-09-28.json"
+  ],
+  "not_admitted": "not-admitted.json"
+}

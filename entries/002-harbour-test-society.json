@@ -1,15 +1,12 @@
 {
   "number": 2,
-  "kind": "tabled",
-  "title": "Harbour Test Society's Ten",
+  "slug": "harbour-test-society",
+  "type": "tabled",
   "status": "published",
-  "entered": "2026-10-03",
-  "parent": 1,
   "organisation": {
-    "legal_name": "Harbour Test Society (invented for the test ledger)",
-    "short_name": "Harbour Test Society",
-    "kind": "community group",
-    "is_political_party": false
+    "name": "Harbour Test Society (invented for the test ledger)",
+    "kind": "association",
+    "website": ""
   },
   "signer": {
     "name": "Ada Example",
@@ -25,91 +22,109 @@
       "role": "Secretary"
     }
   ],
+  "built_from": 1,
+  "revision_of": null,
+  "gates_attested": {
+    "outcome": true,
+    "measurable": true,
+    "disaggregable": true,
+    "universal": true
+  },
+  "licence": "CC BY 4.0",
+  "published_at": "2026-10-03",
+  "fairness_line": {
+    "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+    "action": "keep",
+    "why": null
+  },
+  "goals": [
+    {
+      "slot": 1,
+      "short_name": "Health",
+      "title": "The Longest Healthy Lives on Earth",
+      "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 2,
+      "short_name": "Home",
+      "title": "A Home You Can Afford to Keep",
+      "wording": "Everyone who lives here has a secure home they can afford to keep, and owning one is within reach of every Bermudian who wants it.",
+      "action": "amend",
+      "why": "Affordability is about staying housed, not only getting housed. Test reason, not a real position."
+    },
+    {
+      "slot": 3,
+      "short_name": "Movement",
+      "title": "The 15-Minute Island",
+      "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 4,
+      "short_name": "Trust",
+      "title": "Private People, Open Institutions",
+      "wording": "Your identity and data are yours: you control how they are used and can see every time they are. Public bodies are open about the decisions they make and why.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 5,
+      "short_name": "Nature",
+      "title": "More Nature Than We Inherited",
+      "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 6,
+      "short_name": "Resilience",
+      "title": "Power and Water You Never Worry About",
+      "wording": "Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 7,
+      "short_name": "Safety",
+      "title": "Safe at Every Hour",
+      "wording": "Everyone is safe and feels safe, at home, on the road and on the water, at any hour.",
+      "action": "amend",
+      "why": "The road and the water are where Bermudians are hurt. Test reason."
+    },
+    {
+      "slot": 8,
+      "short_name": "Capability",
+      "title": "A Nation of Builders",
+      "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 9,
+      "short_name": "Prosperity",
+      "title": "A Good Life on an Ordinary Income",
+      "wording": "Work here pays for a good life, from the first job to a secure retirement.",
+      "action": "keep",
+      "why": null
+    },
+    {
+      "slot": 10,
+      "short_name": "Belonging",
+      "title": "A Place Bermudians Choose",
+      "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
+      "action": "keep",
+      "why": null
+    }
+  ],
+  "title": "Harbour Test Society's Ten",
+  "preamble": "A test entry. Builds on Genesis and amends two goals to rehearse the amend flow and the diff rendering.",
   "joined_by": [
     {
       "organisation": "Somers Sample Club (invented)",
       "date": "2026-10-20"
-    }
-  ],
-  "preamble": "A test entry. Builds on Genesis and changes two goals to rehearse the amend flow and the diff rendering.",
-  "gates": {
-    "Outcome, not mechanism": "attested",
-    "Measurable by 2050": "attested",
-    "Disaggregable": "attested",
-    "Universal": "attested"
-  },
-  "goals": [
-    {
-      "number": 1,
-      "action": "keep",
-      "theme": "Health",
-      "title": "Healthy at Every Age",
-      "statement": "Health is the default at every age, strong, active, and well-supported lives where chronic disease is the exception, not the expectation."
-    },
-    {
-      "number": 2,
-      "action": "keep",
-      "theme": "Home",
-      "title": "A Home You Can Own",
-      "statement": "There are enough homes for everyone who lives here, and owning one is within reach of every Bermudian who wants it."
-    },
-    {
-      "number": 3,
-      "action": "amend",
-      "theme": "Movement",
-      "title": "The 15-Minute Island",
-      "statement": "Everything a person needs in a day is within fifteen minutes of home, at any hour, without needing to own a car.",
-      "reason": "Ten minutes describes a speed. Fifteen minutes to what you need describes a life. Test reason, not a real position."
-    },
-    {
-      "number": 4,
-      "action": "amend",
-      "theme": "Trust",
-      "title": "Private People, Open Institutions",
-      "statement": "Your data is yours and every public body's decisions and spending are open to read.",
-      "reason": "Sovereignty reads as constitutional. Trust is what residents feel. Test reason."
-    },
-    {
-      "number": 5,
-      "action": "keep",
-      "theme": "Nature",
-      "title": "An Ocean That Feeds and Heals",
-      "statement": "A thriving natural environment, from reef to shoreline to native forest, one that feeds the island, strengthens the health of everyone on it, and hands the next generation more nature than we inherited."
-    },
-    {
-      "number": 6,
-      "action": "keep",
-      "theme": "Resilience",
-      "title": "Power and Water You Never Worry About",
-      "statement": "Reliable, affordable, resilient power and water that simply work."
-    },
-    {
-      "number": 7,
-      "action": "keep",
-      "theme": "Safety",
-      "title": "Safe at Every Hour",
-      "statement": "Every Bermudian feels safe, anywhere on the island, at any hour."
-    },
-    {
-      "number": 8,
-      "action": "keep",
-      "theme": "Capability & Enterprise",
-      "title": "A Nation of Builders",
-      "statement": "Every Bermudian has the skills, tools, and backing to build, learning never stops, and anyone with an idea can take it to market within a single day."
-    },
-    {
-      "number": 9,
-      "action": "keep",
-      "theme": "Belonging",
-      "title": "A Place Worth Staying For",
-      "statement": "Bermudians choose Bermuda, staying, and returning, is the natural choice, and the numbers show it."
-    },
-    {
-      "number": 10,
-      "action": "keep",
-      "theme": "Blueprint",
-      "title": "The Place the World Learns From",
-      "statement": "What we prove here, measured in public, built in the open, becomes the blueprint other nations study and adopt."
     }
   ]
 }

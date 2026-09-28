@@ -7,6 +7,7 @@
     "walks": 3
   },
   "held": false,
+  "hold_reason": null,
   "tallies": [
     {
       "entry": 2,

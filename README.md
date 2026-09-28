@@ -11,10 +11,10 @@ The ten national goals live as an open, append-only ledger. Organisations table 
 ## Layout
 
 ```
-ledger.json                 index of everything below, what the website reads first
+index.json                  index of everything below, what the website reads first
 entries/001-genesis.md      one entry per version, human readable
 entries/001-genesis.json    the same entry, machine readable
-reviews/2026-10.md + .json  one record per month-end reading
+readings/2026-10.md + .json one record per month-end reading
 brake/                      every use of the brake, with its reason
 settings/                   thresholds, one file per change, with effective date
 not-admitted.json           running count of submissions not admitted, by reason
@@ -34,7 +34,7 @@ tools/build.py              the builder, run it after editing source.json
 
 ## How the website reads it
 
-The site fetches `ledger.json`, then the `.json` file for each entry, reading or brake record it needs. If the site and this repository ever differ, the repository is right.
+The site fetches `index.json`, then the `.json` file for each entry, reading or brake record it needs. If the site and this repository ever differ, the repository is right.
 
 ## Regenerating
 
