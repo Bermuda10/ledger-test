@@ -161,7 +161,28 @@ def render_brake(b):
     return name + ".json"
 
 
+def check(src):
+    """The repository must never disagree with itself. A reading's co-sign
+    count for an entry must equal the co-signs on that entry dated at or
+    before the cutoff. Build refuses otherwise."""
+    by_number = {e["number"]: e for e in src["entries"]}
+    for r in src["readings"]:
+        cutoff = r["cutoff_at"][:10]
+        for t in r["tallies"]:
+            e = by_number[t["entry"]]
+            have = sum(1 for c in e.get("co_signed_by", []) if c["date"] <= cutoff)
+            if have != t["co_signs"]:
+                raise SystemExit(f"reading {r['period']}: entry {t['entry']:03d} has {have} "
+                                 f"co-signs by the cutoff, tally says {t['co_signs']}")
+    for e in src["entries"]:
+        if e["type"] == "genesis" and e.get("co_signed_by"):
+            raise SystemExit("Genesis cannot be co-signed")
+        if len(e["goals"]) != 10 or sorted(g["slot"] for g in e["goals"]) != list(range(1, 11)):
+            raise SystemExit(f"entry {e['number']:03d} does not have slots 1 to 10")
+
+
 def main():
+    check(SRC)
     for d in ("entries", "readings", "brake", "settings"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     entries = SRC["entries"]
