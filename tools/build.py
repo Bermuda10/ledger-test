@@ -56,14 +56,14 @@ def render_goals(entry, parent):
     for g in entry["goals"]:
         n = g["slot"]
         pg = next((x for x in parent["goals"] if x["slot"] == n), None) if parent else None
-        lines.append(f"### {n}. {g['short_name']}, {g['title']}\n")
+        lines.append(f"### {n}. {g['short_name']} · {g['title']}\n")
         if g["action"] == "keep" or pg is None:
             lines.append(g["wording"] + "\n")
         else:
             lines.append(f"**{g['action'].capitalize()}.** {g['wording']}\n")
             lines.append(f"Was: ~~{pg['wording']}~~")
             if pg["title"] != g["title"] or pg["short_name"] != g["short_name"]:
-                lines.append(f"Was titled: ~~{pg['short_name']}, {pg['title']}~~")
+                lines.append(f"Was titled: ~~{pg['short_name']} · {pg['title']}~~")
             lines.append("")
             lines.append(f"Why: {g['why']}\n")
     return "\n".join(lines)
