@@ -214,7 +214,12 @@ def main():
                 "status": e["status"],
                 "signable": e["type"] != "genesis",
                 "co_signs": len(e.get("co_signed_by", [])),
-                "changes": "kept all ten" if e.get("built_from") and all(g["action"] == "keep" for g in e["goals"]) and e["fairness_test"]["action"] == "keep" else None,
+                "changes": None if e["type"] == "genesis" else {
+                    "kept": sum(1 for g in e["goals"] if g["action"] == "keep"),
+                    "amended": sum(1 for g in e["goals"] if g["action"] == "amend"),
+                    "replaced": sum(1 for g in e["goals"] if g["action"] == "replace"),
+                    "fairness_amended": e["fairness_test"]["action"] == "amend",
+                },
                 "path": paths[e["number"]] + ".json",
             }
             for e in entries
