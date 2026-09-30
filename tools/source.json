@@ -504,6 +504,122 @@
           "why": null
         }
       ]
+    },
+    {
+      "number": 5,
+      "slug": "harbour-rehearsal-society",
+      "type": "tabled",
+      "status": "published",
+      "title": "Harbour Rehearsal Society's Ten",
+      "organisation": {
+        "name": "Harbour Rehearsal Society (invented)",
+        "kind": "association",
+        "website": ""
+      },
+      "signer": {
+        "name": "Hannes",
+        "role": "EIR"
+      },
+      "authors": [],
+      "co_signed_by": [],
+      "built_from": 1,
+      "revision_of": null,
+      "gates_attested": {
+        "outcome": true,
+        "measurable": true,
+        "disaggregable": true,
+        "universal": true
+      },
+      "licence": "CC BY 4.0",
+      "published_at": "2026-09-30",
+      "preamble": "Tabled through the website and admitted through the admin console, the first entry to travel the whole path with a person at both ends. Built from Genesis with all ten kept. Invented, like everything in this repository.",
+      "fairness_test": {
+        "wording": "A goal is met only when it is true for every walk of life, every race, every age and every parish.",
+        "action": "keep",
+        "why": null
+      },
+      "goals": [
+        {
+          "slot": 1,
+          "short_name": "Health",
+          "title": "The Longest Healthy Lives on Earth",
+          "wording": "People here live more years in good health, in body and mind, than anywhere on Earth, and chronic disease is the exception at every age.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 2,
+          "short_name": "Home",
+          "title": "A Secure Home, and One You Can Own",
+          "wording": "Everyone who lives here has a secure home they can afford, and every Bermudian who wants to own a home can.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 3,
+          "short_name": "Movement",
+          "title": "The 15-Minute Island",
+          "wording": "Anyone can get to what they need, and anything can get to them, within fifteen minutes, at any hour, without owning a vehicle.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 4,
+          "short_name": "Trust",
+          "title": "Private People, Open Institutions",
+          "wording": "Your identity and data are yours: every use is logged and you can read the log. Every public body is open about how it decides.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 5,
+          "short_name": "Nature",
+          "title": "More Nature Than We Inherited",
+          "wording": "Reef, shoreline and native forest are healthier every decade, the ocean still feeds us, and we hand on more nature than we were given.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 6,
+          "short_name": "Resilience",
+          "title": "Power and Water You Never Worry About",
+          "wording": "Power and water are clean, made here and affordable, and they do not fail, even after a hurricane.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 7,
+          "short_name": "Safety",
+          "title": "Safe at Every Hour",
+          "wording": "Everyone is safe and feels safe, anywhere on the island, at any hour.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 8,
+          "short_name": "Capability",
+          "title": "A Nation of Builders",
+          "wording": "Every child leaves school able to build a good life here, anyone can learn what they need next at any age, and trying an idea the world might value is cheap enough to be normal.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 9,
+          "short_name": "Prosperity",
+          "title": "A Good Life on an Ordinary Income",
+          "wording": "Work here pays for a good life, from the first job to a secure retirement.",
+          "action": "keep",
+          "why": null
+        },
+        {
+          "slot": 10,
+          "short_name": "Belonging",
+          "title": "A Place Bermudians Choose",
+          "wording": "Bermudians choose Bermuda: to stay, to come home, and to stay connected wherever they live.",
+          "action": "keep",
+          "why": null
+        }
+      ]
     }
   ],
   "readings": [

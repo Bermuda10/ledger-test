@@ -64,6 +64,21 @@
       "co_signs": 1,
       "changes": "kept all ten",
       "path": "entries/004-parish-sample-trust.json"
+    },
+    {
+      "number": 5,
+      "slug": "harbour-rehearsal-society",
+      "type": "tabled",
+      "organisation": "Harbour Rehearsal Society (invented)",
+      "signer": "Hannes",
+      "built_from": 1,
+      "revision_of": null,
+      "published_at": "2026-09-30",
+      "status": "published",
+      "signable": true,
+      "co_signs": 0,
+      "changes": "kept all ten",
+      "path": "entries/005-harbour-rehearsal-society.json"
     }
   ],
   "readings": [
