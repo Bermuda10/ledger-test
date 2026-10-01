@@ -27,7 +27,7 @@ tools/build.py              the builder, run it after editing source.json
 - Genesis (001) is the founder's draft, frozen, and can never be signed or co-signed by anyone. An organisation that agrees with it tables its own copy and keeps all ten.
 - Only organisations table. Political parties may not table. From the second entry on, organisations co-sign tabled answers and residents sign them, one signature each.
 - An answer builds on an earlier one or starts its own line. Nothing published is edited or deleted. A revision is a new numbered entry.
-- Read at 23:59 Atlantic/Bermuda on the last day of every month. A reading records backing and declares nothing. There is no leading version until a convergence rule is written with the participants and published.
+- Read at 23:59 Atlantic/Bermuda on the last day of every month. A reading records backing and declares nothing. There is no leading version until a convergence rule is in force. A proposed rule is published in the Governance Thesis, section 6, at bermuda10.com/governance: the most-backed tabled answer shown first from the first reading after the second entry, as a fact, and the most-backed answer becoming the Ten for the year ahead on 31 December 2027, after twelve readings, with the floor and the tie rule decided with the organisations that have tabled and published before they apply.
 - The brake slows and never steers. Every use is recorded here with a written reason.
 - No individual signer, named or unnamed, ever appears in this repository. Counts and spread by walk only. Organisations that co-sign appear by name, as they agreed.
 - Text is licensed CC BY 4.0.
